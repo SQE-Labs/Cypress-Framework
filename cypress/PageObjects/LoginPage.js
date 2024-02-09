@@ -1,18 +1,17 @@
 class Login{
 
     // Locators (CSS Selectors)
-    userNameTbx = ""
-    userNameTbx = "[name='username']"
-    pwdTbx = '[name="password"]'
-    loginBtn = ".orangehrm-login-button"
+    userNameTbx = "[placeholder='Username']"
+    pwdTbx = "[placeholder='Password']"
+    loginBtn = "#loginFormSubmit"
     validationMsg = "div.oxd-alert-content > p"
     mandatoryFieldmsg = "span.oxd-input-field-error-message"
 
-    enterUserName(username){
+    fillUserName(username){
         cy.get(this.userNameTbx).type(username)
     }
 
-    enterPassword(password){
+    fillPassword(password){
         cy.get(this.pwdTbx).type(password)
     }
 
@@ -21,9 +20,9 @@ class Login{
     }
 
     // Login to Orange HRM web application
-    loginToOrangeHRM(username,password){
-        this.enterUserName(username)
-        this.enterPassword(password)
+    loginToDiagnosticLearning(username,password){
+        this.fillUserName(username)
+        this.fillPassword(password)
         this.clickOnLoginBtn()
     }
 }

@@ -22,7 +22,7 @@ describe("Super Admin Test ",()=>{
     })
 
     afterEach("Logout",()=>{
-        cy.get("a.text-danger",{timeout:20000}).click({force: true})
+        cy.get("a.text-danger").click()
     })
 
     it("Verify that SuperAdmin is able to View AdminList page or not", ()=> {

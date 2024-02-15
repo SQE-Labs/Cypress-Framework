@@ -1,6 +1,6 @@
 # _Cypress Automation Framework_
 
-Welcome to the Cypress Automation Framework repository! This framework is designed to simplify and streamline your UI, API, and performance testing using Cypress, a powerful end-to-end testing framework.
+Welcome to the Cypress Automation Framework repository! This framework is designed to simplify and streamline your UI, API, and logging performance report using Cypress in the form of logs, a powerful end-to-end testing framework.
 
 ## Installation and Setup
 
@@ -12,7 +12,7 @@ To get started with this framework, follow these steps:
 npm install cypress --save-dev
 ```
 ### 2. Install Cypress-XPath Plugin
-Cypress-XPath is a useful plugin that enables you to use XPath selectors in your Cypress tests. Install it using npm:
+Install Cypress-XPath plug-in using following command
 ```
 npm install -D cypress-xpath
 ```
@@ -21,7 +21,7 @@ After installation, add the following line to your commands.js file (usually loc
 import 'cypress-xpath';
 ```
 ### Code Structure
-This Cypress Automation Framework follows a structured approach for better maintainability and scalability. Below is an overview of the code structure:
+This Cypress Automation Framework follows a structured approach for better maintainability and scalability(Page Object Model). Below is an overview of the code structure:
 ### Comprehensive Testing
 This framework is designed to support various testing types:
 
@@ -30,6 +30,7 @@ This framework is designed to support various testing types:
 - API Testing: API tests are located in the e2e/apiTest folder. These tests utilize the apiconfig.json file for endpoint configuration and the apiUtils.js utility functions for common API interactions.
 
 - Performance Testing: This framework can be extended to include performance testing using Cypress performance plugins or custom scripts.For now we are capturing the time taken to perform actions on WEB UI.
+(time taken for each process is captured in form of logs)
 
 ### Folder Structure
 - apiconfig.json: Contains the base URL and API endpoints for API testing.
@@ -43,14 +44,16 @@ This framework is designed to support various testing types:
 
 - fixtures: Test data in JSON format is stored here.
 
+- locators: xpath, css selector are stored in these holder.
+
 ### Running Tests
 To run all API tests, use the following command:
 ```
-npm run apitest
+npm run apitest(name 'apitest' of js file)
 ```
 To run all UI tests, use the following command:
 ```
-npm run uitest
+npm run uitest(name 'uitest' of js file)
 ```
 ### Contributions and Feedback
 Contributions and suggestions are welcome! If you find a bug or want to enhance the project, feel free to create a pull request. Please ensure your code follows best practices and includes appropriate tests.

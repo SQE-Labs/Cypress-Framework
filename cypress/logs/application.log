@@ -271,3 +271,71 @@
 [2024-02-14T10:02:41.016Z] User detaile entered & Clicked On Purchased
 [2024-02-14T10:02:41.059Z] Order Id :Id: 1094918Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/1/2024
 [2024-02-14T10:02:43.855Z] Validated Order & Logout
+[2024-02-14T13:26:38.824Z] Launched Application-->Login Test
+[2024-02-14T13:26:42.720Z] Entered User Details-->Login Test
+[2024-02-14T13:26:45.731Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:26:46.467Z] Launched Application-->SignUp Test
+[2024-02-14T13:26:48.333Z] Entered User details-->SignUp Test
+[2024-02-14T13:26:48.562Z] Verified User SignUp-->SignUp Test
+[2024-02-14T13:26:50.731Z] Launched Application-->SignUp Test
+[2024-02-14T13:26:52.882Z] Verify User Exist message
+[2024-02-14T13:26:53.453Z] Launched Application-->SignUp Test
+[2024-02-14T13:26:54.524Z] Verify Invalid Data message
+[2024-02-14T13:26:55.621Z] Launched Application-->Login Test
+[2024-02-14T13:26:59.164Z] Entered User Details-->Login Test
+[2024-02-14T13:27:06.609Z] Launched Application-->Login Test
+[2024-02-14T13:27:10.477Z] Entered User Details-->Login Test
+[2024-02-14T13:27:13.541Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:32:46.602Z] Launched Application-->Login Test
+[2024-02-14T13:32:50.129Z] Entered User Details-->Login Test
+[2024-02-14T13:32:52.921Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:32:53.879Z] Launched Application-->SignUp Test
+[2024-02-14T13:32:55.366Z] Entered User details-->SignUp Test
+[2024-02-14T13:32:55.665Z] Verified User SignUp-->SignUp Test
+[2024-02-14T13:32:57.518Z] Launched Application-->SignUp Test
+[2024-02-14T13:32:59.357Z] Verify User Exist message
+[2024-02-14T13:33:00.565Z] Launched Application-->SignUp Test
+[2024-02-14T13:33:01.332Z] Verify Invalid Data message
+[2024-02-14T13:33:01.970Z] Launched Application-->Login Test
+[2024-02-14T13:33:05.555Z] Entered User Details-->Login Test
+[2024-02-14T13:33:12.998Z] Launched Application-->Login Test
+[2024-02-14T13:33:16.817Z] Entered User Details-->Login Test
+[2024-02-14T13:33:19.758Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:33:30.749Z] Product Added to Cart and Placed Order
+[2024-02-14T13:33:36.646Z] User detaile entered & Clicked On Purchased
+[2024-02-14T13:33:37.012Z] Order Id :Id: 5609826Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/1/2024
+[2024-02-14T13:33:41.458Z] Validated Order & Logout
+[2024-02-14T13:40:42.745Z] Launched Application-->Login Test
+[2024-02-14T13:40:47.017Z] Entered User Details-->Login Test
+[2024-02-14T13:40:49.997Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:40:51.630Z] Launched Application-->SignUp Test
+[2024-02-14T13:40:53.366Z] Entered User details-->SignUp Test
+[2024-02-14T13:40:53.696Z] Verified User SignUp-->SignUp Test
+[2024-02-14T13:40:55.594Z] Launched Application-->SignUp Test
+[2024-02-14T13:40:57.645Z] Verify User Exist message
+[2024-02-14T13:40:58.756Z] Launched Application-->SignUp Test
+[2024-02-14T13:40:59.396Z] Verify Invalid Data message
+[2024-02-14T13:41:00.098Z] Launched Application-->Login Test
+[2024-02-14T13:41:03.839Z] Entered User Details-->Login Test
+[2024-02-14T13:41:07.871Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:41:18.040Z] Product Added to Cart and Placed Order
+[2024-02-14T13:41:23.689Z] User detaile entered & Clicked On Purchased
+[2024-02-14T13:41:23.838Z] Order Id :Id: 4542560Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/1/2024
+[2024-02-14T13:41:27.791Z] Validated Order & Logout
+[2024-02-14T13:46:17.007Z] Launched Application-->Login Test
+[2024-02-14T13:46:21.434Z] Entered User Details-->Login Test
+[2024-02-14T13:46:24.750Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:46:26.838Z] Launched Application-->SignUp Test
+[2024-02-14T13:46:28.948Z] Entered User details-->SignUp Test
+[2024-02-14T13:46:29.241Z] Verified User SignUp-->SignUp Test
+[2024-02-14T13:46:31.052Z] Launched Application-->SignUp Test
+[2024-02-14T13:46:33.678Z] Verify User Exist message
+[2024-02-14T13:46:34.644Z] Launched Application-->SignUp Test
+[2024-02-14T13:46:35.611Z] Verify Invalid Data message
+[2024-02-14T13:46:36.834Z] Launched Application-->Login Test
+[2024-02-14T13:46:40.632Z] Entered User Details-->Login Test
+[2024-02-14T13:46:45.166Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:46:57.055Z] Product Added to Cart and Placed Order
+[2024-02-14T13:47:05.049Z] User detaile entered & Clicked On Purchased
+[2024-02-14T13:47:05.275Z] Order Id :Id: 3008732Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/1/2024
+[2024-02-14T13:47:10.651Z] Validated Order & Logout

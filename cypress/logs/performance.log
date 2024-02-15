@@ -53,3 +53,14 @@
 [2024-02-14T10:02:10.617Z] TotalTime taken to registerUser: 8763ms
 [2024-02-14T10:02:21.181Z] TotalTime taken to ValidateMonitor's: 14426ms
 [2024-02-14T10:02:43.913Z] TotalTime taken to Purchase Product: 21290ms
+[2024-02-14T13:26:45.793Z] TotalTime taken to LoginUser: 3159ms
+[2024-02-14T13:26:48.665Z] TotalTime taken to registerUser: 10690ms
+[2024-02-14T13:32:52.983Z] TotalTime taken to LoginUser: 2457ms
+[2024-02-14T13:32:55.717Z] TotalTime taken to registerUser: 9652ms
+[2024-02-14T13:33:41.653Z] TotalTime taken to Purchase Product: 28851ms
+[2024-02-14T13:40:50.109Z] TotalTime taken to LoginUser: 3138ms
+[2024-02-14T13:40:53.752Z] TotalTime taken to registerUser: 11608ms
+[2024-02-14T13:41:27.921Z] TotalTime taken to Purchase Product: 20200ms
+[2024-02-14T13:46:24.893Z] TotalTime taken to LoginUser: 3527ms
+[2024-02-14T13:46:29.313Z] TotalTime taken to registerUser: 13159ms
+[2024-02-14T13:47:10.888Z] TotalTime taken to Purchase Product: 23144ms

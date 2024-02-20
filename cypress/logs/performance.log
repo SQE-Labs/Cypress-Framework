@@ -64,3 +64,23 @@
 [2024-02-14T13:46:24.893Z] TotalTime taken to LoginUser: 3527ms
 [2024-02-14T13:46:29.313Z] TotalTime taken to registerUser: 13159ms
 [2024-02-14T13:47:10.888Z] TotalTime taken to Purchase Product: 23144ms
+[2024-02-19T07:58:25.512Z] TotalTime taken to LoginUser: 10761ms
+[2024-02-20T07:41:20.933Z] TotalTime taken to LoginUser: 18441ms
+[2024-02-20T07:46:10.601Z] TotalTime taken to LoginUser: 14459ms
+[2024-02-20T07:50:53.365Z] TotalTime taken to LoginUser: 11339ms
+[2024-02-20T08:01:53.664Z] TotalTime taken to LoginUser: 18212ms
+[2024-02-20T08:03:28.540Z] TotalTime taken to LoginUser: 12644ms
+[2024-02-20T08:07:09.388Z] TotalTime taken to LoginUser: 14246ms
+[2024-02-20T08:09:56.439Z] TotalTime taken to LoginUser: 10402ms
+[2024-02-20T08:15:55.548Z] TotalTime taken to LoginUser: 16146ms
+[2024-02-20T10:51:41.068Z] TotalTime taken to LoginUser: 16471ms
+[2024-02-20T11:13:50.575Z] TotalTime taken to LoginUser: 14178ms
+[2024-02-20T11:44:55.280Z] TotalTime taken to LoginUser: 11941ms
+[2024-02-20T11:54:06.884Z] TotalTime taken to LoginUser: 12804ms
+[2024-02-20T11:56:16.316Z] TotalTime taken to LoginUser: 18117ms
+[2024-02-20T12:03:54.614Z] TotalTime taken to LoginUser: 12463ms
+[2024-02-20T12:19:37.833Z] TotalTime taken to LoginUser: 24140ms
+[2024-02-20T12:27:38.305Z] TotalTime taken to LoginUser: 16179ms
+[2024-02-20T12:34:29.835Z] TotalTime taken to LoginUser: 18682ms
+[2024-02-20T12:46:27.897Z] TotalTime taken to LoginUser: 11914ms
+[2024-02-20T12:47:12.898Z] TotalTime taken to LoginUser: 49618ms

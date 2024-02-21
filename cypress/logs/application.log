@@ -271,3 +271,178 @@
 [2024-02-14T10:02:41.016Z] User detaile entered & Clicked On Purchased
 [2024-02-14T10:02:41.059Z] Order Id :Id: 1094918Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/1/2024
 [2024-02-14T10:02:43.855Z] Validated Order & Logout
+[2024-02-14T13:26:38.824Z] Launched Application-->Login Test
+[2024-02-14T13:26:42.720Z] Entered User Details-->Login Test
+[2024-02-14T13:26:45.731Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:26:46.467Z] Launched Application-->SignUp Test
+[2024-02-14T13:26:48.333Z] Entered User details-->SignUp Test
+[2024-02-14T13:26:48.562Z] Verified User SignUp-->SignUp Test
+[2024-02-14T13:26:50.731Z] Launched Application-->SignUp Test
+[2024-02-14T13:26:52.882Z] Verify User Exist message
+[2024-02-14T13:26:53.453Z] Launched Application-->SignUp Test
+[2024-02-14T13:26:54.524Z] Verify Invalid Data message
+[2024-02-14T13:26:55.621Z] Launched Application-->Login Test
+[2024-02-14T13:26:59.164Z] Entered User Details-->Login Test
+[2024-02-14T13:27:06.609Z] Launched Application-->Login Test
+[2024-02-14T13:27:10.477Z] Entered User Details-->Login Test
+[2024-02-14T13:27:13.541Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:32:46.602Z] Launched Application-->Login Test
+[2024-02-14T13:32:50.129Z] Entered User Details-->Login Test
+[2024-02-14T13:32:52.921Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:32:53.879Z] Launched Application-->SignUp Test
+[2024-02-14T13:32:55.366Z] Entered User details-->SignUp Test
+[2024-02-14T13:32:55.665Z] Verified User SignUp-->SignUp Test
+[2024-02-14T13:32:57.518Z] Launched Application-->SignUp Test
+[2024-02-14T13:32:59.357Z] Verify User Exist message
+[2024-02-14T13:33:00.565Z] Launched Application-->SignUp Test
+[2024-02-14T13:33:01.332Z] Verify Invalid Data message
+[2024-02-14T13:33:01.970Z] Launched Application-->Login Test
+[2024-02-14T13:33:05.555Z] Entered User Details-->Login Test
+[2024-02-14T13:33:12.998Z] Launched Application-->Login Test
+[2024-02-14T13:33:16.817Z] Entered User Details-->Login Test
+[2024-02-14T13:33:19.758Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:33:30.749Z] Product Added to Cart and Placed Order
+[2024-02-14T13:33:36.646Z] User detaile entered & Clicked On Purchased
+[2024-02-14T13:33:37.012Z] Order Id :Id: 5609826Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/1/2024
+[2024-02-14T13:33:41.458Z] Validated Order & Logout
+[2024-02-14T13:40:42.745Z] Launched Application-->Login Test
+[2024-02-14T13:40:47.017Z] Entered User Details-->Login Test
+[2024-02-14T13:40:49.997Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:40:51.630Z] Launched Application-->SignUp Test
+[2024-02-14T13:40:53.366Z] Entered User details-->SignUp Test
+[2024-02-14T13:40:53.696Z] Verified User SignUp-->SignUp Test
+[2024-02-14T13:40:55.594Z] Launched Application-->SignUp Test
+[2024-02-14T13:40:57.645Z] Verify User Exist message
+[2024-02-14T13:40:58.756Z] Launched Application-->SignUp Test
+[2024-02-14T13:40:59.396Z] Verify Invalid Data message
+[2024-02-14T13:41:00.098Z] Launched Application-->Login Test
+[2024-02-14T13:41:03.839Z] Entered User Details-->Login Test
+[2024-02-14T13:41:07.871Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:41:18.040Z] Product Added to Cart and Placed Order
+[2024-02-14T13:41:23.689Z] User detaile entered & Clicked On Purchased
+[2024-02-14T13:41:23.838Z] Order Id :Id: 4542560Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/1/2024
+[2024-02-14T13:41:27.791Z] Validated Order & Logout
+[2024-02-14T13:46:17.007Z] Launched Application-->Login Test
+[2024-02-14T13:46:21.434Z] Entered User Details-->Login Test
+[2024-02-14T13:46:24.750Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:46:26.838Z] Launched Application-->SignUp Test
+[2024-02-14T13:46:28.948Z] Entered User details-->SignUp Test
+[2024-02-14T13:46:29.241Z] Verified User SignUp-->SignUp Test
+[2024-02-14T13:46:31.052Z] Launched Application-->SignUp Test
+[2024-02-14T13:46:33.678Z] Verify User Exist message
+[2024-02-14T13:46:34.644Z] Launched Application-->SignUp Test
+[2024-02-14T13:46:35.611Z] Verify Invalid Data message
+[2024-02-14T13:46:36.834Z] Launched Application-->Login Test
+[2024-02-14T13:46:40.632Z] Entered User Details-->Login Test
+[2024-02-14T13:46:45.166Z] Validated success Login Msg-->Login Test
+[2024-02-14T13:46:57.055Z] Product Added to Cart and Placed Order
+[2024-02-14T13:47:05.049Z] User detaile entered & Clicked On Purchased
+[2024-02-14T13:47:05.275Z] Order Id :Id: 3008732Amount: 360 USDCard Number: 8173239123Name: JackSonDate: 14/1/2024
+[2024-02-14T13:47:10.651Z] Validated Order & Logout
+[2024-02-19T07:33:00.258Z] Launched Application-->Login Test
+[2024-02-19T07:33:02.796Z] Entered User Details-->Login Test
+[2024-02-19T07:58:19.512Z] Launched Application-->Login Test
+[2024-02-19T07:58:22.119Z] Entered User Details-->Login Test
+[2024-02-19T07:58:25.474Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T07:15:21.430Z] Launched Application-->Login Test
+[2024-02-20T07:19:56.652Z] Launched Application-->Login Test
+[2024-02-20T07:34:32.411Z] Launched Application-->Login Test
+[2024-02-20T07:34:37.926Z] Entered User Details-->Login Test
+[2024-02-20T07:34:53.384Z] Launched Application-->Login Test
+[2024-02-20T07:34:58.982Z] Entered User Details-->Login Test
+[2024-02-20T07:41:11.580Z] Launched Application-->Login Test
+[2024-02-20T07:41:17.124Z] Entered User Details-->Login Test
+[2024-02-20T07:41:20.894Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T07:41:29.593Z] Launched Application-->Login Test
+[2024-02-20T07:41:35.049Z] Entered User Details-->Login Test
+[2024-02-20T07:46:00.901Z] Launched Application-->Login Test
+[2024-02-20T07:46:06.507Z] Entered User Details-->Login Test
+[2024-02-20T07:46:10.558Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T07:46:19.916Z] Launched Application-->Login Test
+[2024-02-20T07:46:25.431Z] Entered User Details-->Login Test
+[2024-02-20T07:50:43.885Z] Launched Application-->Login Test
+[2024-02-20T07:50:49.527Z] Entered User Details-->Login Test
+[2024-02-20T07:50:53.033Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T07:50:58.372Z] Launched Application-->Login Test
+[2024-02-20T07:51:03.972Z] Entered User Details-->Login Test
+[2024-02-20T08:01:44.325Z] Launched Application-->Login Test
+[2024-02-20T08:01:49.846Z] Entered User Details-->Login Test
+[2024-02-20T08:01:53.331Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T08:02:07.762Z] Launched Application-->Login Test
+[2024-02-20T08:02:13.283Z] Entered User Details-->Login Test
+[2024-02-20T08:03:19.408Z] Launched Application-->Login Test
+[2024-02-20T08:03:24.972Z] Entered User Details-->Login Test
+[2024-02-20T08:03:28.215Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T08:03:36.346Z] Launched Application-->Login Test
+[2024-02-20T08:03:41.852Z] Entered User Details-->Login Test
+[2024-02-20T08:06:59.357Z] Launched Application-->Login Test
+[2024-02-20T08:07:04.936Z] Entered User Details-->Login Test
+[2024-02-20T08:07:09.338Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T08:07:15.497Z] Launched Application-->Login Test
+[2024-02-20T08:07:21.029Z] Entered User Details-->Login Test
+[2024-02-20T08:09:47.277Z] Launched Application-->Login Test
+[2024-02-20T08:09:52.814Z] Entered User Details-->Login Test
+[2024-02-20T08:09:56.100Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T08:10:06.850Z] Launched Application-->Login Test
+[2024-02-20T08:10:12.344Z] Entered User Details-->Login Test
+[2024-02-20T08:15:46.254Z] Launched Application-->Login Test
+[2024-02-20T08:15:51.786Z] Entered User Details-->Login Test
+[2024-02-20T08:15:55.501Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T08:16:12.481Z] Launched Application-->Login Test
+[2024-02-20T08:16:17.952Z] Entered User Details-->Login Test
+[2024-02-20T10:51:30.225Z] Launched Application-->Login Test
+[2024-02-20T10:51:36.361Z] Entered User Details-->Login Test
+[2024-02-20T10:51:41.007Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T10:52:29.075Z] Launched Application-->Login Test
+[2024-02-20T10:52:35.057Z] Entered User Details-->Login Test
+[2024-02-20T11:13:39.968Z] Launched Application-->Login Test
+[2024-02-20T11:13:46.091Z] Entered User Details-->Login Test
+[2024-02-20T11:13:50.150Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T11:14:28.637Z] Launched Application-->Login Test
+[2024-02-20T11:14:34.535Z] Entered User Details-->Login Test
+[2024-02-20T11:44:42.928Z] Launched Application-->Login Test
+[2024-02-20T11:44:48.839Z] Entered User Details-->Login Test
+[2024-02-20T11:44:54.925Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T11:45:16.055Z] Launched Application-->Login Test
+[2024-02-20T11:45:21.863Z] Entered User Details-->Login Test
+[2024-02-20T11:53:56.602Z] Launched Application-->Login Test
+[2024-02-20T11:54:02.405Z] Entered User Details-->Login Test
+[2024-02-20T11:54:06.515Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T11:54:12.974Z] Launched Application-->Login Test
+[2024-02-20T11:54:18.926Z] Entered User Details-->Login Test
+[2024-02-20T11:56:05.851Z] Launched Application-->Login Test
+[2024-02-20T11:56:11.760Z] Entered User Details-->Login Test
+[2024-02-20T11:56:16.276Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T11:56:28.915Z] Launched Application-->Login Test
+[2024-02-20T11:56:34.616Z] Entered User Details-->Login Test
+[2024-02-20T12:03:41.454Z] Launched Application-->Login Test
+[2024-02-20T12:03:47.488Z] Entered User Details-->Login Test
+[2024-02-20T12:03:54.271Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T12:03:58.291Z] Launched Application-->Login Test
+[2024-02-20T12:04:04.101Z] Entered User Details-->Login Test
+[2024-02-20T12:19:27.407Z] Launched Application-->Login Test
+[2024-02-20T12:19:33.546Z] Entered User Details-->Login Test
+[2024-02-20T12:19:37.489Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T12:19:39.277Z] Launched Application-->Login Test
+[2024-02-20T12:19:45.118Z] Entered User Details-->Login Test
+[2024-02-20T12:19:54.938Z] Form Filled for Admin creation on Dashboard-->Admin Creation
+[2024-02-20T12:27:27.181Z] Launched Application-->Login Test
+[2024-02-20T12:27:32.927Z] Entered User Details-->Login Test
+[2024-02-20T12:27:38.229Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T12:27:45.790Z] Launched Application-->Login Test
+[2024-02-20T12:27:51.554Z] Entered User Details-->Login Test
+[2024-02-20T12:28:00.177Z] Form Filled for Admin creation on Dashboard-->Admin Creation
+[2024-02-20T12:34:19.253Z] Launched Application-->Login Test
+[2024-02-20T12:34:25.070Z] Entered User Details-->Login Test
+[2024-02-20T12:34:29.744Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T12:34:33.643Z] Launched Application-->Login Test
+[2024-02-20T12:34:39.332Z] Entered User Details-->Login Test
+[2024-02-20T12:34:46.641Z] Form Filled for Admin creation on Dashboard-->Admin Creation
+[2024-02-20T12:46:14.730Z] Launched Application-->Login Test
+[2024-02-20T12:46:20.612Z] Entered User Details-->Login Test
+[2024-02-20T12:46:27.515Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T12:46:52.188Z] Launched Application-->Login Test
+[2024-02-20T12:46:58.235Z] Entered User Details-->Login Test
+[2024-02-20T12:47:06.256Z] Form Filled for Admin creation on Dashboard-->Admin Creation
+[2024-02-20T12:47:12.693Z] Validated SuperAdmin on Dashboard-->Login Test
+[2024-02-20T12:47:12.808Z] Clicked on Admin Creating button -->Admin Creation

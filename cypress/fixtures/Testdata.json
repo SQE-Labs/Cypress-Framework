@@ -1,8 +1,8 @@
 {
-  "UserName": "PeterPanter",
-  "UserPassword": "Panter@123",
+  "UserName": "Tim",
+  "UserPassword": "123456",
   "expectedsignupMsg": "Sign up successful.",
-  "userExistMsg":"This user already exist.",
-  "InvalidDataMsg":"Please fill out Username and Password.",
+  "userExistMsg": "This user already exist.",
+  "InvalidDataMsg": "Please fill out Username and Password.",
   "loginmsg": "Welcome PeterPanter"
 }

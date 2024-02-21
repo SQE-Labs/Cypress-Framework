@@ -1,0 +1,19 @@
+{
+  "usernametxt": "//input[@placeholder='Username']",
+  "passwordtxt": "//input[@placeholder='Password']",
+  "signInbtn": "//button[@id='loginFormSubmit']",
+  "dashboard": "//h3[text()='Dashboard']",
+  "adminTab": "//a[text()='Admins']",
+  "adminFirstName": "//input[@placeholder='First Name']",
+  "adminLastName": "//input[@placeholder='Last Name']",
+  "adminMobileNumber": "//input[@placeholder='Cell Number']",
+  "adminEmail": "//input[@placeholder='Email']",
+  "adminUsername": "//input[@placeholder='Username']",
+  "adminCreatepassword": "//input[@placeholder='Create Password']",
+  "adminConfirmpassword": "//input[@placeholder='Confirm Password']",
+  "adminCreationSubmission": "//button[text()=' Create Admin ']",
+  "adminCreationForm": "//button[text()='Create Admin']",
+  "adminFilter": "//a[text()='Filter']",
+  "adminSearch": "//input[@placeholder='Type here to search']",
+  "adminListUsername": "(//table[@id='appointmentTable']//following::tr/td[2])[1]"
+}

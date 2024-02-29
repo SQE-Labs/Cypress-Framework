@@ -5,6 +5,7 @@ const reportName = process.env.REPORT_NAME || "TestReport";
 const fs = require("fs");
 
 module.exports = defineConfig({
+  defaultCommandTimeout: 20000,
   video: true,
   videoCompression: true,
   projectId: "kveppv",

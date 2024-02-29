@@ -1,13 +1,8 @@
 const locator_xpath = require("../locators/xpath/superadmin.json");
+import { generateRandomString, generateRandomNumber } from "../support/utils";
 
 class Login {
-  // clickLogin() {
-  //   cy.xpath(locator_xpath.loginbtn).click();
-  //   cy.xpath("//h5[.='Log in']").should("be.visible");
-  // }
-
   setUserName(username) {
-    cy.wait(2000);
     cy.xpath(locator_xpath.usernametxt).click().type(username);
   }
 
@@ -28,7 +23,6 @@ class Login {
   }
 
   clickDiagnosticianCreationTab() {
-    cy.wait(2000);
     cy.xpath(locator_xpath.diagnosticiansTab).click();
   }
 
@@ -37,7 +31,6 @@ class Login {
   }
 
   clickDirectorCreationTab() {
-    cy.wait(2000);
     cy.xpath(locator_xpath.directorTab).click();
   }
 }

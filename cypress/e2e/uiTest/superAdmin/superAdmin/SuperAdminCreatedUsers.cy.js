@@ -1,27 +1,31 @@
-import Login from "../../../PageClass/Login";
-import Admin from "../../../PageClass/Admin";
-import Diagnostician from "../../../PageClass/Diagnostician";
-import Director from "../../../PageClass/Director";
-import "../../../support/commands";
+import Login from "../../../../PageClass/Login";
+import Admin from "../../../../PageClass/Admin";
+import Diagnostician from "../../../../PageClass/Diagnostician";
+import Director from "../../../../PageClass/Director";
+import "../../../../support/commands";
 import {
   generateRandomString,
   generateRandomNumber,
-} from "../../../support/utils";
+} from "../../../../support/utils";
+import Payment from "../../../../PageClass/Payment";
+import { Appointments } from "../../../../PageClass/Appointments";
 
 const startTime = Date.now();
 const loginObj = new Login();
 const adminObj = new Admin();
 const diagnosticianObj = new Diagnostician();
 const directorObj = new Director();
+const paymentObj = new Payment();
+const appointmentObj = new Appointments();
 
-describe("Validate User is Register", () => {
+describe("Validate superUser an create different type of user", () => {
   beforeEach(() => {
     // Launch the application URL
     cy.visit("https://topuptalent.com/Diagnosticlearning/#/");
-    cy.logger("application", "Launched Application-->Login Test");
+    cy.logger("application", "Launched Application--> SuperAdmin");
     cy.fixture("login").then((registerUserdata) => {
       // loginObj.clickLogin();
-      cy.wait(3000);
+      //cy.wait(3000);
       loginObj.setUserName(registerUserdata.superAdminName);
       loginObj.setPassword(registerUserdata.superAdminPassword);
       cy.logger("application", "Entered User Details-->Login Test");
@@ -30,7 +34,7 @@ describe("Validate User is Register", () => {
   });
 
   it("Verify User is able to login", () => {
-    cy.wait(6000);
+    //cy.wait(6000);
     loginObj.verifyUserOnDashboard();
     cy.logger("application", "Validated SuperAdmin on Dashboard-->Login Test");
     const loadTime = Date.now() - startTime;
@@ -39,7 +43,7 @@ describe("Validate User is Register", () => {
 
   it("Super Admin creates new Admin", () => {
     cy.fixture("admin").then((adminData) => {
-      cy.wait(3000);
+      //cy.wait(3000);
       const username = adminData.adminUserName + generateRandomString(3);
       adminObj.clickAdminCreationTab();
       adminObj.clickOnOpeningAdminCreation();
@@ -62,7 +66,7 @@ describe("Validate User is Register", () => {
         "Clicked on Admin Creating button -->Admin Creation"
       );
       // loginObj.verifyLoginSuccessMsg(registerUserdata.loginmsg);
-      cy.wait(3000);
+      //cy.wait(3000);
       adminObj.verifyAdminOnDashboard(username);
       cy.logger(
         "application",
@@ -73,7 +77,7 @@ describe("Validate User is Register", () => {
 
   it("Super Admin creates new Diagnostician", () => {
     cy.fixture("diagnostician").then((diagnosticianData) => {
-      cy.wait(3000);
+      //cy.wait(3000);
       const username =
         diagnosticianData.diagnosticianUserName + generateRandomString(3);
       diagnosticianObj.clickDiagnosticianCreationTab();
@@ -97,7 +101,7 @@ describe("Validate User is Register", () => {
         "Clicked on Diagnostician Creating button -->Diagnostician Creation"
       );
       // loginObj.verifyLoginSuccessMsg(registerUserdata.loginmsg);
-      cy.wait(3000);
+      //cy.wait(3000);
       diagnosticianObj.verifyDiagnosticianOnDashboard(username);
       cy.logger(
         "application",
@@ -108,7 +112,7 @@ describe("Validate User is Register", () => {
 
   it("Super Admin creates new Director", () => {
     cy.fixture("director").then((directorData) => {
-      cy.wait(3000);
+      //cy.wait(3000);
       const username = directorData.directorUserName + generateRandomString(3);
       directorObj.clickDirectorCreationTab();
       directorObj.clickOnOpeningDirectorCreation();
@@ -127,7 +131,7 @@ describe("Validate User is Register", () => {
       );
       directorObj.clickOnCreateDirector();
       // loginObj.verifyLoginSuccessMsg(registerUserdata.loginmsg);
-      cy.wait(3000);
+      //cy.wait(3000);
       directorObj.verifyDirectorOnDashboard(username);
       cy.logger(
         "application",
@@ -139,4 +143,57 @@ describe("Validate User is Register", () => {
       );
     });
   });
+  // it("Super Admin checks Payment on Payment Page", () => {
+  //   cy.fixture("payment").then((paymentData) => {
+  //     paymentObj.clickPaymentsOpeningTab();
+  //     paymentObj.verifyUserOnPaymentDashboard();
+  //     cy.logger(
+  //       "application",
+  //       "Super Admin on Payment Dashboard --> Payment Page"
+  //     );
+  //     paymentObj.clickOnSearchPayments();
+  //     cy.logger(
+  //       "application",
+  //       "Super Admin searched for a Payment on Dashboard--> Payment Page"
+  //     );
+  //     directorObj.verifyPaymentsDetailOnDashboard(username);
+  //     cy.logger(
+  //       "application",
+  //       "Super Admin validate Payment existence on Dashboard--> Payment Page"
+  //     );
+  //   });
+  // });
+  // it("Super Admin checks for appointment on Appointment Page", () => {
+  //   cy.fixture("director").then((directorData) => {
+  //     //cy.wait(3000);
+  //     const username = directorData.directorUserName + generateRandomString(3);
+  //     directorObj.clickDirectorCreationTab();
+  //     directorObj.clickOnOpeningDirectorCreation();
+  //     directorObj.createDirector(
+  //       directorData.directorFirstName,
+  //       directorData.directorLastName,
+  //       directorData.directorMobileNumber,
+  //       directorData.directorEmail,
+  //       username,
+  //       directorData.directorPassword,
+  //       directorData.directorConfirmPassword
+  //     );
+  //     cy.logger(
+  //       "application",
+  //       "Form Filled for Director creation on Dashboard-->Director Creation"
+  //     );
+  //     directorObj.clickOnCreateDirector();
+  //     // loginObj.verifyLoginSuccessMsg(registerUserdata.loginmsg);
+  //     //cy.wait(3000);
+  //     directorObj.verifyDirectorOnDashboard(username);
+  //     cy.logger(
+  //       "application",
+  //       "Validated Director on Dashboard-->Director Test"
+  //     );
+  //     cy.logger(
+  //       "application",
+  //       "Clicked on Director Creating button -->Director Creation"
+  //     );
+  //   });
+  // });
 });

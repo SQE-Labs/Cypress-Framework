@@ -24,5 +24,17 @@
   "directorTab": "//a[text()='Directors']",
   "directorCreationForm": "//button[text()='Create Director']",
   "directorCreationSubmission": "//button[text()='Create Director']",
-  "directorListUsername": "(//table[@id='appointmentTable']//following::tr/td[2])[1]"
+  "directorListUsername": "(//table[@id='appointmentTable']//following::tr/td[2])[1]",
+  "appointmentsTab": "//a[text()=' Appointments ']",
+  "appointmentsViewAll": "//a[text()='View All']",
+  "appointmentsDashboard": "//h3[text()='All Appointments']",
+  "appointmentsSearch": "//input[@aria-controls='appointmentTable']",
+  "appointmentsOnDashboard": "(//table[@id='appointmentTable']//following::tr/td[2])[1]",
+  "paymentsTab": "//a[text()='Payments']",
+  "paymentSearch": "//input[@aria-controls='paymentTable']",
+  "paymentsDashboard": "//h3[text()='Payments']",
+  "paymentOnDashboard": "(//table[@id='paymentTable']//following::tr/td[2])[1]",
+  "appointmentTab":"//a[text()=' Appointments ']",
+  "appointmentViewAll":"//a[text()='View All']",
+  "":""
 }

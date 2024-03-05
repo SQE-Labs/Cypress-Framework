@@ -1,18 +1,26 @@
 import DashboardPage from "../PageObjects/DashboardPage";
 import Login from "../PageObjects/LoginPage";
 import AdminPage from "../PageObjects/AdminPage";
+import DirectorsPage from "../PageObjects/DirectorsPage"
 import {generateRandomString,generateRandomNumber} from "../support/utils"
 
 describe("Super Admin Test ",()=>{
     const login = new Login();
     const dashboard = new DashboardPage();
-    const adminPage = new AdminPage();
+    const admin = new AdminPage();
+    const director = new DirectorsPage()
 
-    let adminFirstName
-    let adminLastName 
-    let adminEmailAddress
-    let adminUserName
-    let admin_cell_Number
+    let adminFirstName;
+    let adminLastName ;
+    let adminEmailAddress;
+    let adminUserName;
+    let admin_cell_Number;
+    let directorFirstName;
+    let directorLastName;
+    let directoCellNumber;
+    let directorLocation;
+    let directorUsername;
+    let directorEmail;
 
     beforeEach("Navigate to Login opage",()=>{
         cy.visit("https://topuptalent.com/Diagnosticlearning/#/")
@@ -21,13 +29,29 @@ describe("Super Admin Test ",()=>{
         login.clickOnLoginBtn();
     })
 
-    afterEach("Logout",()=>{
-        cy.get("a.text-danger").click()
-    })
+    // afterEach("Logout",()=>{
+    //     dashboard.clickLogoutBtn();
+    // })
 
     it("Verify that SuperAdmin is able to View AdminList page or not", ()=> {
         cy.url().should("contain","/dashboard");
+        cy.get(dashboard.superAdminHeader).should("have.text","SUPERADMIN")
     })
+
+    it.only("Verify super admin is able to create Directors",()=>{
+        directorFirstName="AU_"+generateRandomString(3) 
+        directorLastName= "AU_"+generateRandomString(3);
+        directoCellNumber= generateRandomNumber(10);
+        directorLocation="Austin";
+        directorUsername="AU"+generateRandomString(5)+generateRandomNumber(3);
+        directorEmail="AU_"+ generateRandomString(3) + "12@yopmail.com";
+        dashboard.clickDirectorTab()
+        director.clickCreateDirectorBtn()
+        director.createDirector(directorFirstName,directorLastName,directoCellNumber,directorEmail,directorLocation,directorUsername,"123456","123456")
+        cy.get(director.searchTbx).type(directorFirstName)
+        cy.get("tbody tr td:nth-child(2)").should('have.text',directorUsername)
+        
+   })
 
     it("Verify that SuperAdmin is able to create Admin or not", ()=>{ 
        adminFirstName = "AU_Ayla" + generateRandomString(3);
@@ -35,25 +59,42 @@ describe("Super Admin Test ",()=>{
        adminEmailAddress = "AU_"+ generateRandomString(3) + "@yopmail.com";
        adminUserName = "AU_Flyn" + generateRandomString(3);
        admin_cell_Number = generateRandomNumber(10);
-       dashboard.clickOnAdminsTab();
-       adminPage.createAdmin(adminFirstName,adminLastName,admin_cell_Number,adminEmailAddress,adminUserName,"123456","123456");
-       cy.get(adminPage.validationMsgBox).should("have.text","Admin Created Successfully")
+       dashboard.clickAdminsTab();
+       admin.createAdmin(adminFirstName,adminLastName,admin_cell_Number,adminEmailAddress,adminUserName,"123456","123456");
+       cy.get(admin.validationMsgBox).should("have.text","Admin Created Successfully")
     })
 
+    
+
     it("SuperAdmin is able to search created admin or not",()=>{
-        dashboard.clickOnAdminsTab();
-        adminPage.clickOnFilterBtn();
-        adminPage.fillSearchBox(adminUserName);
-        cy.get("#appointmentTable > tbody > tr:nth-child(1) > td:nth-child(2)").should("have.text",adminUserName)
+        dashboard.clickAdminsTab();
+        admin.fillSearchBox(adminUserName);
+        // Validation for successful creation of admin
+        cy.get(admin.firstUsernameOfTable).should("have.text",adminUserName)
     })
 
     it("5.6, 5.7 Super admin is able to edit the created admin or not -Bug raised",()=>{
         let adminEmailAddress1 = "AU_"+ generateRandomString(3) + "12@yopmail.com";
-        dashboard.clickOnAdminsTab()
-        adminPage.clickOnEditBtn()
-        cy.get(adminPage.editUserHeader).should("have.text","Edit User")
-        adminPage.editAdmin(adminEmailAddress1,"12345678")
-        cy.get(adminPage.validationMsgBox).should("have.text","Admin details updated successfully.")
+        dashboard.clickAdminsTab()
+        admin.fillSearchBox(adminFirstName)
+        admin.clickOnEditBtn()
+        cy.get(admin.editUserHeader).should("have.text","Edit User")
+        admin.editAdmin(adminEmailAddress1,"12345678")
+        admin.fillSearchBox(adminFirstName)
+        cy.get("tbody tr td:nth-child(4)").should("have.text",adminEmailAddress1)
+    })
+
+    it("Verify super admin is able to create Directors",()=>{
+         directorFirstName="AU_"+generateRandomString(3) 
+         directorLastName= "AU_"+generateRandomString(3);
+         directoCellNumber= generateRandomNumber(10);
+         directorLocation="Austin";
+         directorUsername="AU"+generateRandomString(5)+generateRandomNumber(3);
+         directorEmail="AU_"+ generateRandomString(3) + "12@yopmail.com";
+         dashboard.clickDirectorTab()
+         director.clickCreateDirectorBtn()
+         director.createDirector(directorFirstName,directorLastName,directoCellNumber,directorEmail,directorLocation,directorUsername,"123456","123456")
+         
     })
 
 })

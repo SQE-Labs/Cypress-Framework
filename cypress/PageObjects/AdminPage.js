@@ -9,9 +9,9 @@ class AdminPage{
     createPasswordTbx = "[formcontrolname='password']"
     confirmPasswordTbx = "[placeholder='Confirm Password']"
     createAdminSubmitBtn = "[class='theme-button float-md-right']"
-    validationMsgBox = ".alert"
+    validationMsgBox = "div.alert-success"
     filterBtn = ".page-header.d-flex.align-items-center > a"
-    searchBox = "#filterSearch"
+    searchBox = "[type='search']"
     editBtn = "[data-target='#editDiaInfo']"
     editUserHeader = "h5.text-green"
     editEmailTbx = "[formcontrolname='email']"
@@ -19,6 +19,7 @@ class AdminPage{
     editConfirmPasswordTbx = "div.col-lg-4.col-md-6:nth-child(7) input"
     toggleBtn = "[class='slider round']"
     updateBtn = "#createDiagnosticianFormSubmit"
+    firstUsernameOfTable = "tbody tr td:nth-child(2)"
 
     clickOnCreateAdmin(){
         cy.get(this.createAdminBtn).click()
